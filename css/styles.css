@@ -18,19 +18,82 @@
 .logo img{
     width: 120px;
     height: auto;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 .jumbotron{
     background: #3E50B4;
     position: relative;
     margin: 0;
+    height: 600px;
 }
 .intro-title{
-    margin-top: 100px;
+    margin-top: 140px;
+    margin-bottom: 20px;
 }
 .jumbotron .intro-title{
     font-size: 2.5em;
     color: #fff;
     font-weight: 700;
     line-height: 1.5;
+}
+.jumbotron .intro-text{
+    font-size: 16px;
+    color: #C4C9E8;
+    line-height: 1.8;
+    font-family: sans-serif;
+    margin-left: 3px;
+    margin-bottom: 25px;
+}
+#btn-download{
+    background: #4389FE;
+    padding: 10px 25px;
+    border-radius: 2px;
+    color: #ffffff;
+    text-transform: uppercase;
+    display: inline-block;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.4);
+    position: relative;
+    transition: all .3s ease;
+    overflow: hidden;
+}
+.image-wrap{
+    padding-top: 60px;
+}
+.image-wrap img {
+    width: 300px;
+    height: auto;
+}
+#image-wrap{
+    text-align: center;
+}
+.features{
+    padding: 150px 0;
+}
+.features-title{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+hr{
+    width: 100px;
+    border: 1px solid #2F3E9E;
+    margin-bottom: 30px;
+}
+.features-text{
+    font-size: 16px;
+    color: #B5B5B5;
+    margin-bottom: 80px;
+}
+
+@media (min-width: 992px){
+
+}
+@media (min-width: 768px) and (max-width: 991px){
+    
+}
+@media (max-width: 767px){
+    .jumbotron{
+        text-align: center;
+    }
 }
