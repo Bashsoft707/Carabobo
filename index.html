@@ -10,6 +10,8 @@
     integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
     crossorigin="anonymous">
     </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
     <nav class="navbar navbar-default" role="navigation">
@@ -224,7 +226,7 @@
                                 </li>
                             
                                 <li>
-                                    <span class="glyphicon glyphicon-user"></span>
+                                    <span class="glyphicon glyphicon-pencil"></span>
                                     <h3 class="benefits-list-title">
                                         stunning flexibility
                                     </h3>
@@ -267,89 +269,207 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="screen-carousel owl-carousel owl-theme" id="screen-carousel" 
-                            style="opacity: 1; display: block;">
-                            <div class="owl-wrapper-outer"><div class="owl-wrapper" 
-                                style="width: 4800px; left: 0px; display: block; transform: 
-                                translate3d(-1200px, 0px, 0px); transition: all 200ms ease 0s;">
-                                <div class="owl-item" style="width: 240px;">
-                                    <div class="screen-item">
-								<div class="screen-item-inner">
-									<a href="img/placeholder-445x860-1.png" class="boxer" data-gallery="gallery">
-										<img src="img/placeholder-445x860-1.png" alt="" title="">
-									</a>
-								</div>
-							</div></div><div class="owl-item" style="width: 240px;"><div class="screen-item">
-								<div class="screen-item-inner">
-									<a href="img/placeholder-445x860.png" class="boxer" data-gallery="gallery">
-										<img src="img/placeholder-445x860.png" alt="" title="">
-									</a>
-								</div>
-							</div></div><div class="owl-item" style="width: 240px;"><div class="screen-item">
-								<div class="screen-item-inner">
-									<a href="img/placeholder-568x771 (1).png" class="boxer" data-gallery="gallery">
-										<img src="img/placeholder-568x771 (1).png" alt="" title="">
-									</a>
-								</div>
-							</div></div><div class="owl-item" style="width: 240px;"><div class="screen-item">
-								<div class="screen-item-inner">
-									<a href="img/placeholder-568x771.png" class="boxer" data-gallery="gallery">
-										<img src="img/placeholder-568x771.png" alt="" title="">
-									</a>
-								</div>
-							</div></div><div class="owl-item" style="width: 240px;"><div class="screen-item">
-								<div class="screen-item-inner">
-									<a href="img/placeholder-600x850-2.png" class="boxer" data-gallery="gallery">
-										<img src="img/placeholder-600x850-2.png" alt="" title="">
-									</a>
-								</div>
-							</div></div><div class="owl-item" style="width: 240px;"><div class="screen-item">
-								<div class="screen-item-inner">
-									<a href="img/placeholder-860x445.png" class="boxer" data-gallery="gallery">
-										<img src="img/placeholder-860x445.png" alt="" title="">
-									</a>
-								</div>
-							</div></div><div class="owl-item" style="width: 240px;"><div class="screen-item">
-								<div class="screen-item-inner">
-									<a href="img/placeholder-600x850-3.png" class="boxer" data-gallery="gallery">
-										<img src="img/placeholder-600x850-3.png" alt="" title="">
-									</a>
-								</div>
-							</div></div><div class="owl-item" style="width: 240px;"><div class="screen-item">
-								<div class="screen-item-inner">
-									<a href="img/placeholder-600x850.png" class="boxer" data-gallery="gallery">
-										<img src="img/placeholder-600x850.png" alt="" title="">
-									</a>
-								</div>
-							</div></div><div class="owl-item" style="width: 240px;"><div class="screen-item">
-								<div class="screen-item-inner">
-									<a href="img/placeholder-568x771.png" class="boxer" data-gallery="gallery">
-										<img src="img/placeholder-568x771.png" alt="" title="">
-									</a>
-								</div>
-							</div></div><div class="owl-item" style="width: 240px;"><div class="screen-item">
-								<div class="screen-item-inner">
-									<a href="img/placeholder-445x860.png" class="boxer" data-gallery="gallery">
-										<img src="img/placeholder-445x860.png" alt="" title="">
-									</a>
-								</div>
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-wrapper">
+                                <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                              <li data-target="#myCarousel" data-slide-to="1"></li>
+                              <li data-target="#myCarousel" data-slide-to="2"></li>
+                              <li data-target="#myCarousel" data-slide-to="3"></li>
+                              <li data-target="#myCarousel" data-slide-to="4"></li>
+                              <li data-target="#myCarousel" data-slide-to="5"></li>
+                              <li data-target="#myCarousel" data-slide-to="6"></li>
+                              <li data-target="#myCarousel" data-slide-to="7"></li>
+                            </ol>
+                        
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active" style="width: 240px;">
+                                  <a href="img/placeholder-600x850-1.png" class="boxer" data-gallery="gallery">
+                                      <img src="img/placeholder-600x850-1.png" alt="" title="">
+                                  </a>
+                                </div>
+  
+                                <div class="item" style="width: 240px;">
+                                  <a href="img/placeholder-600x850-2.png" class="boxer" data-gallery="gallery">
+                                      <img src="img/placeholder-600x850-2.png" alt="" title="">
+                                  </a>
+                                </div>
+  
+                                <div class="item" style="width: 240px;">
+                                  <a href="img/placeholder-600x850.png" class="boxer" data-gallery="gallery">
+                                      <img src="img/placeholder-600x850.png" alt="" title="">
+                                  </a>
+                                </div>
+  
+                                <div class="item" style="width: 240px;">
+                                  <a href="img/placeholder-600x850-3.png" class="boxer" data-gallery="gallery">
+                                      <img src="img/placeholder-600x850-3.png" alt="" title="">
+                                  </a>
+                                </div>
+  
+                                <div class="item" style="width: 240px;">
+                                  <a href="img/placeholder-600x850-2.png" class="boxer" data-gallery="gallery">
+                                      <img src="img/placeholder-600x850-2.png" alt="" title="">
+                                  </a>
+                                </div>
+  
+                                <div class="item" style="width: 240px;">
+                                  <a href="img/placeholder-600x850-1.png" class="boxer" data-gallery="gallery">
+                                      <img src="img/placeholder-600x850-1.png" alt="" title="">
+                                  </a>
+                                </div>
+                          
+                                <div class="item" style="width: 240px;">
+                                  <a href="img/placeholder-600x850-3.png" class="boxer" data-gallery="gallery">
+                                      <img src="img/placeholder-600x850-3.png" alt="" title="">
+                                  </a>
+                                </div>
+                              
+                                <div class="item" style="width: 240px;">
+                                  <a href="img/placeholder-600x850.png" class="boxer" data-gallery="gallery">
+                                      <img src="img/placeholder-600x850.png" alt="" title="">
+                                  </a>
+                                </div>
+                              </div>
                             </div>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="between-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-3">
+                        <div class="numbers-item text-center">
+                            <div class="number-icons">
+                                <span class="glyphicon glyphicon-save"></span>
+                            </div>
+                            <div class="numbers-stats">
+                                <span class="timer" data-from="0" data-to="642">642</span>
+                            </div>
+                            <div class="numbers-title">downloads</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3">
+                        <div class="numbers-item text-center">
+                            <div class="number-icons">
+                                <span class="glyphicon glyphicon-star"></span>
+                            </div>
+                            <div class="numbers-stats">
+                                <span class="timer" data-from="0" data-to="458">458</span>
+                            </div>
+                            <div class="numbers-title">top rates</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3">
+                        <div class="numbers-item text-center">
+                            <div class="number-icons">
+                                <span class="glyphicon glyphicon-thumbs-up"></span>
+                            </div>
+                            <div class="numbers-stats">
+                                <span class="timer" data-from="0" data-to="888">888</span>
+                            </div>
+                            <div class="numbers-title">likes</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3">
+                        <div class="numbers-item text-center">
+                            <div class="number-icons">
+                                <span class="glyphicon glyphicon-cog"></span>
+                            </div>
+                            <div class="numbers-stats">
+                                <span class="timer" data-from="0" data-to="100">100</span>
+                            </div>
+                            <div class="numbers-title">new-updates</div>
                         </div>
                     </div>
                 </div>
-					<div class="owl-controls clickable">
-                        <div class="owl-pagination">
-                            <div class="owl-page">
-                                <span class=""></span>
+            </div>
+        </section>
+
+        <section class="price">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="price-title text-center">our price</h2>
+                        <hr>
+                        <p class="price-sub-title text-center">
+                            We want the template you downloaded look unique and 
+                            new for such a long time as it is possible
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col sm-6">
+                        <div class="price-item text-center">
+                            <div class="price-item-name">basic</div>
+                            <div class="price-item-price">$0.95</div>
+                            <div class="price-item-renew">per month</div>
+                            <div class="price-item-list">
+                                <ul>
+                                    <li>enhanced security</li>
+                                    <li>no time tracker</li>
+                                    <li>enhanced security</li>
+                                </ul>
                             </div>
-                            <div class="owl-page active">
-                                <span class=""></span>
+                            <div class="price-item-buy">
+                                <a href="#" class="btn btn-primary" id="buy">buy now</a>
                             </div>
-                            <div class="owl-page">
-                                <span class=""></span>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col sm-6">
+                        <div class="price-item text-center">
+                            <div class="price-item-name">standard</div>
+                            <div class="price-item-price">$3.95</div>
+                            <div class="price-item-renew">per month</div>
+                            <div class="price-item-list">
+                                <ul>
+                                    <li>enhanced security</li>
+                                    <li>no time tracker</li>
+                                    <li>enhanced security</li>
+                                </ul>
                             </div>
-                            <div class="owl-page">
-                                <span class=""></span>
+                            <div class="price-item-buy">
+                                <a href="#" class="btn btn-primary" id="buy">buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col sm-6">
+                        <div class="price-item text-center active">
+                            <div class="price-item-name">advanced</div>
+                            <div class="price-item-price">$5.95</div>
+                            <div class="price-item-renew">per month</div>
+                            <div class="price-item-list">
+                                <ul>
+                                    <li>enhanced security</li>
+                                    <li>no time tracker</li>
+                                    <li>enhanced security</li>
+                                </ul>
+                            </div>
+                            <div class="price-item-buy">
+                                <a href="#" class="btn btn-primary" id="buy">buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col sm-6">
+                        <div class="price-item text-center">
+                            <div class="price-item-name">professional</div>
+                            <div class="price-item-price">$15.95</div>
+                            <div class="price-item-renew">per month</div>
+                            <div class="price-item-list">
+                                <ul>
+                                    <li>enhanced security</li>
+                                    <li>no time tracker</li>
+                                    <li>enhanced security</li>
+                                </ul>
+                            </div>
+                            <div class="price-item-buy">
+                                <a href="#" class="btn btn-primary" id="buy">buy now</a>
                             </div>
                         </div>
                     </div>
@@ -357,6 +477,25 @@
             </div>
         </section>
 
+        <section class="testimonial">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="testimonial-title text-center">
+                            what people say about us
+                        </h2>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+
+                </div>
+            </div>
+        </section>
+
+    
+              
+            
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
 </body>
