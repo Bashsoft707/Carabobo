@@ -67,7 +67,7 @@
     text-align: center;
 }
 .features{
-    padding: 150px 0;
+    padding: 80px 0;
 }
 .features-title{
     font-weight: 700;
@@ -86,21 +86,42 @@
     margin-bottom: 80px;
 }
 .features-list{
-    padding: 0;
-    margin-top: 30px;
+    padding-top: 50px;
+}
+.features-list ul li {
+    position: relative;
+    margin-bottom: 50px;
+}
+.features-left ul li {
+    padding-right: 60px;
+}
+.features-right ul li {
+    padding-left: 60px;
+}
+ul li {
+    list-style-type: none;
+}
+.features-left ul li i {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    font-size: 32px;
+    color: #717171;
+}
+.features-right ul li i {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    font-size: 32px;
+    color: #717171;
 }
 .features-list h3{
     text-transform: uppercase;
-    font-size: 23px;
     font-family: 'Times New Roman', Times, serif;
     line-height: 1.5;
     margin-bottom: 20px;
     color: #444;
-}
-.features-list i{
-    margin: 23px 0;
-    font-size: 23px;
-    color: #B5B5B5;
+    font-weight: 100;
 }
 .features-list p{
     line-height: 1.8;
@@ -333,6 +354,53 @@ ul li{
     border: 1px solid #FFFFFF;
     width: 100px;
 }
+.follow{
+    padding: 80px 0;
+}
+.follow-title{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+.follow hr{
+    border: 1px solid #2F3E9E;
+    width: 100px;
+}
+.follow-sub-title{
+    font-size: 16px;
+    color: #B5B5B5;
+    margin-bottom: 80px;
+}
+.social-links-wrapper{
+    margin-top: 50px;
+}
+.social-links-wrapper a {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 18px;
+    line-height: 60px;
+    margin: 0 10px;
+}
+.fb{
+    background: #3B5998;
+}
+.gp{
+    background: #DD4B39;
+}
+.im{
+    background: #517FA4;;
+}
+.pt{
+    background: #CB2027;
+}
+.tw{
+    background: #00ACED;
+}
+.footer{
+    padding: 100px;
+}
 
 @media (min-width: 992px){
     .benefits-list span{
@@ -340,6 +408,27 @@ ul li{
     }
 }
 @media (max-width: 991px) and (min-width: 768px) {
+    .features-list {
+        padding-top: 0;
+    }
+    .features-list h3 {
+        font-size: 22px;
+    }
+    .features-list {
+        padding-top: 0;
+    }
+    .features-left ul li {
+        padding-right: 0;
+    }
+    .features-right ul li {
+        padding-left: 0;
+    }
+    .features-right .features-left ul li i {
+        display: none;
+    }
+    .features-list h3{
+        font-size: 22px;
+    }
     .between-image img{
         width: 100%;
         height: auto;
@@ -358,10 +447,25 @@ ul li{
     .jumbotron{
         text-align: center;
     }
-    .features-list{
+    .features-list {
+        padding-top: 0;
+    }
+    .features-left ul li {
+        padding-right: 0;
         text-align: center;
-        margin-right: 10px;
-        margin-left: 10px;
+    }
+    .features-right ul li {
+        padding-left: 0;
+        text-align: center;
+    }
+    .features-right .features-left ul li i {
+        position: relative;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .features-list h3 {
+        text-align: center;
+        font-size: 22px;
     }
     .between-image img{
         width: 100%;
@@ -402,17 +506,37 @@ ul li{
         margin-bottom: 40px;
     }
 @media (max-width: 478px) and (min-width: 299px){
+    .features-list {
+        padding-top: 0;
+    }
+    .features-left ul li {
+        padding-right: 0;
+        text-align: center;
+    }
+    .features-right ul li {
+        padding-left: 0;
+        text-align: center;
+    }
+    .features-right .features-left ul li i {
+        position: relative;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .features-list h3 {
+        text-align: center;
+        font-size: 22px;
+    }
     .image-wrapp {
         width: auto;
     }
     .image-wrapp img {
         width: 100%;
-       height: auto;
-   }
-   .between-image img {
-    width: 100%;
-    height: auto;
-   }
+        height: auto;
+    }
+    .between-image img {
+        width: 100%;
+        height: auto;
+    }
    .section-between p{
        padding: 0;
    }
@@ -441,4 +565,3 @@ ul li{
     }
 }
     
-
