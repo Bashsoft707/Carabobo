@@ -133,6 +133,7 @@ p:last-child {
     margin-bottom: 0;
 }
 p {
+    margin: 0 auto;
     margin-bottom: 25px;
     line-height: 1.8;
 }
@@ -362,6 +363,26 @@ img{
     border: 1px solid #FFFFFF;
     width: 100px;
 }
+.testimonial-image{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin: 0 auto 20px;
+    overflow: hidden;
+}
+.testimonial-image img{
+    width: 100%;
+    height: auto;
+}
+.testimonial-name{
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #CED7DB;
+    text-transform: capitalize;
+}
+.testimonial-text{
+    padding: 0 100px;
+}
 .follow{
     padding: 80px 0;
 }
@@ -390,6 +411,7 @@ img{
     font-size: 18px;
     line-height: 60px;
     margin: 0 10px;
+    color: #FFFFFF;
 }
 .fb{
     background: #3B5998;
@@ -431,6 +453,7 @@ footer{
 @media (max-width: 991px) and (min-width: 768px) {
     .features-list {
         padding-top: 0;
+        margin-top: 20px;
     }
     .features-list h3 {
         font-size: 22px;
@@ -466,6 +489,9 @@ footer{
     .price-item {
      margin-bottom: 40px;
     }
+    .testimonial-text{
+        padding: 0;
+    }
 }
 @media (max-width: 767px) and (min-width: 479px){
     .jumbotron{
@@ -473,6 +499,7 @@ footer{
     }
     .features-list {
         padding-top: 0;
+        margin-top: 20px;
     }
     .features-left ul li {
         padding-right: 0;
@@ -517,7 +544,7 @@ footer{
     .benefits-list ul li {
         padding-right: 0;
         text-align: center;
-        }
+    }
     .benefits-list ul li i{
         position: relative;
         margin-bottom: 20px;
@@ -534,6 +561,9 @@ footer{
     .price-item {
         margin-bottom: 40px;
     }
+    .testimonial-text{
+        padding: 0;
+    }
 } 
 @media (max-width: 478px) and (min-width: 299px){
     .jumbotron{
@@ -541,6 +571,7 @@ footer{
     }
     .features-list {
         padding-top: 0;
+        margin-top: 20px;
     }
     .features-left ul li {
         padding-right: 0;
@@ -572,7 +603,7 @@ footer{
     }
    .section-between p{
        padding: 0;
-   }
+    }
    .benefit .benefit-title{
     text-align: center;
     }
@@ -595,5 +626,8 @@ footer{
     }
     .price-item {
         margin-bottom: 40px;
+    }
+    .testimonial-text{
+        padding: 0;
     }
 }
